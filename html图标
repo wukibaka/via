@@ -1,0 +1,15 @@
+<style>.text {fill: none;stroke-width:13;stroke-linejoin: round;stroke-dasharray: 70 330;stroke-dashoffset: 0;-webkit-animation: stroke 6s infinite linear;animation: stroke 6s infinite linear;}.text:nth-child(5n + 1) {stroke: #F2385A;-webkit-animation-delay: -1.2s;animation-delay: -1.2s;}.text:nth-child(5n + 2) {stroke: #F5A503;-webkit-animation-delay: -2.4s;animation-delay: -2.4s;}.text:nth-child(5n + 3) {stroke: #DCDCDC;-webkit-animation-delay: -3.6s;animation-delay: -3.6s;}.text:nth-child(5n + 4) {stroke: #56D9CD;-webkit-animation-delay: -4.8s;animation-delay: -4.8s;}.text:nth-child(5n + 5) {stroke: #3AA1BF;-webkit-animation-delay: -6s;animation-delay: -6s;}@-webkit-keyframes stroke {100% {stroke-dashoffset: -400;}}@keyframes stroke {100% {stroke-dashoffset: -400;}}div svg{font: 14.5em/1 Open Sans, Impact;}</style><div style='width:100%;'> 
+<svg viewBox="0 0 2500 500"> 
+<symbol id="s-text"> 
+<text text-anchor="middle"x="50%" y="50%" dy=".35em">百度一下</text> 
+</symbol> 
+<use xlink:href="#s-text" class="text"></use> 
+<use xlink:href="#s-text" class="text"></use> 
+<use xlink:href="#s-text" class="text"></use> 
+<use xlink:href="#s-text" class="text"></use> 
+<use xlink:href="#s-text" class="text"></use> 
+</svg> 
+</div>
+<script>
+document.title = '你不会百度吗？';
+</script>
