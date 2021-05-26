@@ -1,0 +1,23 @@
+.search_bar {
+box-shadow: 0 0 100px rgba(70,70,40,.255);
+background-color: rgba(255,255,255,.100);
+border-radius: 50px;
+display: table;
+width: 80%;
+height: 40px;
+max-width: 400px;
+margin: 10px auto;
+text-align:center;
+font-size:35px;
+border:0;
+outline:none;
+font-weight:560;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+animation:search-bar 1s;
+}
+@keyframes search-bar
+{
+0% {max-width: 150px;}
+100% {max-width: 400px;}
+}
