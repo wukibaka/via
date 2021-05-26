@@ -10,6 +10,3 @@
 <use xlink:href="#s-text" class="text"></use> 
 </svg> 
 </div>
-<script>
-document.title = '你不会百度吗？';
-</script>
