@@ -1,0 +1,10 @@
+<script type="text/javascript" src="http://yijuzhan.com/api/word.php?m=js"></script>
+<script type="text/javascript">
+var s = false; //显示来源信息，true为显示，false为不显示，默认不显示
+var t =document.getElementsByTagName("title")[0];
+if(s){
+t.innerHTML = str[0]+str[1];
+}else{
+t.innerHTML = str[0];
+}
+</script>
